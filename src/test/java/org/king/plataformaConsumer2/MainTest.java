@@ -45,21 +45,30 @@ class MainTest {
     void testGreet2() {
         Library library = new Library();
         String result = library.greet2("plataforma-consumer-2");
-        assertEquals("Via plataforma: Greetings, plataforma-consumer-2!", result);    }
+        assertEquals("Via plataforma: Greetings, plataforma-consumer-2!", result);    
+    }
     @Test
     void testGreet3() {
         Library library = new Library();
         String result = library.greet3("plataforma-consumer-2");
-        assertEquals("Via plataforma: Salutations, plataforma-consumer-2!", result);    }
+        assertEquals("Via plataforma: Salutations, plataforma-consumer-2!", result);    
+    }
     @Test
     void testGreet4() {
         Library library = new Library();
         String result = library.greet4("plataforma-consumer-2");
-        assertEquals("Via plataforma: Hej, plataforma-consumer-2!", result);    }
+        assertEquals("Via plataforma: Hej, plataforma-consumer-2!", result);    
+    }
     @Test
     void testGreet5() {
         Library library = new Library();
         String result = library.greet5("plataforma-consumer-2");
         assertEquals("Via plataforma: Kon'nichiwa, plataforma-consumer-2!", result);
+    }
+    @Test
+    void testGreet6() {
+        Library library = new Library();
+        String result = library.greet5("plataforma-consumer-2");
+        assertEquals("Guten Tag, plataforma-consumer-2!", result);
     }
 }

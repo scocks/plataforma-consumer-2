@@ -33,14 +33,21 @@ public class Library {
     }
     public String greet2(String name) {
         org.king.plataforma.Library plataforma = new org.king.plataforma.Library();
-        return "Via plataforma: " + plataforma.greet2(name);    }
+        return "Via plataforma: " + plataforma.greet2(name);    
+    }
     public String greet3(String name) {
         org.king.plataforma.Library plataforma = new org.king.plataforma.Library();
-        return "Via plataforma: " + plataforma.greet3(name);    }
+        return "Via plataforma: " + plataforma.greet3(name);    
+    }
     public String greet4(String name) {
         org.king.plataforma.Library plataforma = new org.king.plataforma.Library();
-        return "Via plataforma: " + plataforma.greet4(name);    }
+        return "Via plataforma: " + plataforma.greet4(name);    
+    }
     public String greet5(String name) {
         org.king.plataforma.Library plataforma = new org.king.plataforma.Library();
-        return "Via plataforma: " + plataforma.greet5(name);    }
+        return "Via plataforma: " + plataforma.greet5(name);    
+    }
+    public String greet6(String name) {
+        return "Guten Tag, " + name + "!";
+    }   
 }
