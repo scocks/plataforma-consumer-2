@@ -68,7 +68,7 @@ class MainTest {
     @Test
     void testGreet6() {
         Library library = new Library();
-        String result = library.greet5("plataforma-consumer-2");
+        String result = library.greet6("plataforma-consumer-2");
         assertEquals("Guten Tag, plataforma-consumer-2!", result);
     }
 }
