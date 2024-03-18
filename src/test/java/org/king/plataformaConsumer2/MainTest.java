@@ -1,7 +1,7 @@
-package org.king.plataformaConsumer1;
+package org.king.plataformaConsumer2;
 
 import org.junit.jupiter.api.Test;
-import org.king.plataformaConsumer1.Library;
+import org.king.plataformaConsumer2.Library;
 
 import java.util.ArrayList;
 
