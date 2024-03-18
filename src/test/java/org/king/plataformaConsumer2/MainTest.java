@@ -21,7 +21,7 @@ class MainTest {
     void testGreetAll() {
         Library library = new Library();
         ArrayList<String> result = library.greetAll("plataforma-consumer-2");
-        assertEquals(7,result.size());
+        assertEquals(8,result.size());
         assertEquals("Via plataforma: Hello from plataforma, plataforma-consumer-2!", result.get(0));
         assertEquals("Via plataforma: Hello, plataforma-consumer-2!", result.get(1));
         assertEquals("Via plataforma: Greetings, plataforma-consumer-2!", result.get(2));
@@ -29,12 +29,13 @@ class MainTest {
         assertEquals("Via plataforma: Hej, plataforma-consumer-2!", result.get(4));
         assertEquals("Via plataforma: Kon'nichiwa, plataforma-consumer-2!", result.get(5));        
         assertEquals("Guten Tag, plataforma-consumer-2!", result.get(6));
+        assertEquals("Witam from plataforma-consumer-2, plataforma-consumer-2!", result.get(7));
     }
     @Test
     void testGreet() {
         Library library = new Library();
         String result = library.greet("plataforma-consumer-2");
-        assertEquals("Hello from plataforma-consumer-2, plataforma-consumer-2!", result);
+        assertEquals("Witam from plataforma-consumer-2, plataforma-consumer-2!", result);
     }
     @Test
     void testGreet1() {
